@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "PT bold";
+    src: url('../fonts/PTSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'PT-regular';
+    src: url('../fonts/PTSans-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'PT-regular'; 
+}
+.container {
+    max-width: 910px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 auto 146px;
+}
+header {
+    font-family: 'PT bold';
+    padding: 55px 0;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.company {
+    display: flex;
+    align-items: center;
+}
+.company span {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-left: 15px;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    padding-right: 146px;
+}
+.list .center {
+    margin: 0 60px;
+}
+.list a {
+    text-decoration: none;
+    color: black;
+    size: 22px;
+}
+.banner-main {
+    background: #FCDB00;
+    margin-top: -155px;
+    padding-top: 170px;
+    padding-bottom: 110px;
+}
+h1 {
+    margin-bottom: 35px;
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: 'PT bold';
+    color: #010101;
+}
+h2 {
+    padding-right: 210px;
+    margin-bottom: 20px;
+    color: #313841;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.banner-main p {
+    padding-right: 200px;
+    margin-bottom: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #82793E;
+}
+.icons .center {
+    margin: 0 40px;
+}
