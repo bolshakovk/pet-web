@@ -15,8 +15,6 @@ body {
 }
 .container {
     max-width: 910px;
-    display: flex;
-    justify-content: space-between;
     margin: 0 0 auto 146px;
 }
 header {
@@ -31,11 +29,7 @@ header {
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content:space-between;
-}
-.company {
-    display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 .company span {
     font-size: 30px;
@@ -88,4 +82,16 @@ h2 {
 }
 .icons .center {
     margin: 0 40px;
+}
+.container-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.column {
+    max-width: 591px;
+    margin: 0 0 auto 146px;
+}
+.table-img {
+    margin-right: 100px;
 }
