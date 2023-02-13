@@ -9,29 +9,32 @@
   </head>
   <body>
     <header>
-      <div class="wrapper">
+      <div class="container">
 
-        <div class="container">
+        <div class="wrapper">
 
           <div class="company">
             <img src="images/nav.png" alt="logo" />
             <span>tinyone</span>
           </div>
-        </div>
         <nav>
           <ul class="list">
-            <li><a href="#">Feautures</a></li>
-            <li><a href="#" class="center">Support</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#feautures">Feautures</a></li>
+            <li><a href="#footer" class="center">Support</a></li>
+            <li><a href="#blog">Blog</a></li>
           </ul>
         </nav>
+
+        </div>
+
+
       </div>
+
     </header>
     <main>
-      <div class="banner-main">
-        <div class="container-body">
-          
-
+      <div class="banner-main" id="blog">
+        <div class="container">
+          <div class="wrapper">
             <div class="column">
               <h1>Inspire your inspiration</h1>
               <h2>
@@ -54,11 +57,102 @@
             <div class="table-img">
               <img src="images/table.png" alt="table-img" />
             </div>
-
-
+          </div>
+        </div>
+      </div>
+      <div class="features" id="features">
+        <div class="container">
+          <div class="title">
+            <h2>Tinyone features</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Praesent vitae eros eget tellus tristique bibendum. Donec rutrum
+              sed sem quis venenatis.
+            </p>
+          </div>
+          <ul class="list">
+            <li>
+              <div class="col">
+                <img src="./images/Rectangle-3.svg" alt="icon mobile">
+              </div>
+              <div class="col">
+                <h3>Fully responsive</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <img src="./images/Rectangle-4.svg" alt="icon mobile">
+              </div>
+              <div class="col">
+                <h3>Fully layered PSD</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <img src="./images/Rectangle-5.svg" alt="icon mobile">
+              </div>
+              <div class="col">
+                <h3>Font Awesome icons</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <img src="./images/Rectangle-6.svg" alt="icon mobile">
+              </div>
+              <div class="col">
+                <h3>HTML5 & CSS3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <img src="./images/Rectangle-7.svg" alt="icon mobile">
+              </div>
+              <div class="col">
+                <h3>Email template</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <img src="./images/Rectangle-8.svg" alt="icon mobile">
+              </div>
+              <div class="col">
+                <h3>Free To Download</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent vitae eros eget tellus tristique bibendum.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div class="container">
+        <div class="title">
+          <h2>Keep in touch with us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Praesent vitae eros eget tellus tristique bibendum. Donec rutrum
+            sed sem quis venenatis.</p>
+        </div>
+        <form>
+          <input type="email" placeholder="Enter your email to update">
+          <button type="submit">Submit</button>
+        </form>
+        <p class="text">
+          HALOVIETNAM LTD<br>
+          66, Dang Van ngu Dong Da<br> 
+          Hanoi, Vietnam<br>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
